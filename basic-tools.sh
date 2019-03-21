@@ -2,7 +2,7 @@
 #
 # Author: Rohan Prasad (prasad.rohan93@gmail.com)
 
-tools=(git vim xclip)
+tools=(git vim xclip curl)
 
 for tool in ${tools[*]}; do
   command -v $tool >/dev/null && echo -e "$tool \xE2\x9C\x94" && continue || sudo apt-get install -y $tool
