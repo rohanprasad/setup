@@ -6,6 +6,8 @@
 
 sudo apt-get install -y zsh
 
+chsh -s $(which zsh)
+
 # Install antigen (plugin manager for zsh)
 curl -L git.io/antigen > ~/antigen.zsh
 
@@ -26,6 +28,9 @@ antigen bundle command-not-found
 # Syntax highlighting bundle.
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
+
+# Install theme
+antigen theme romkatv/powerlevel10k
 
 # Tell Antigen that you're done.
 antigen apply
