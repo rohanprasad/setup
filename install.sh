@@ -21,6 +21,7 @@ function install_tool {
 sh ./basic-tools.sh
 sh ./install-vscode.sh
 sh ./install-zsh.sh
+sh ./install-gnome-tweak.sh
 sh ./install-flux.sh
 
 git config --global user.email "prasad.rohan93@gmail.com"
