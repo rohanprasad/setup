@@ -23,6 +23,7 @@ sh ./install-vscode.sh
 sh ./install-zsh.sh
 sh ./install-gnome-tweak.sh
 sh ./install-flux.sh
+sh ./install-nvm.sh
 
 git config --global user.email "prasad.rohan93@gmail.com"
 git config --global user.name "Rohan Prasad"
