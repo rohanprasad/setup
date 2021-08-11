@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 #
 # Author: Rohan Prasad (prasad.rohan93@gmail.com)
 #
